@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Driver_MainActivity">
+
+    <EditText
+        android:id="@+id/newdriverid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/newdriverid" />
+
+    <EditText
+        android:id="@+id/newdrivername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/newdrivername" />
+
+    <EditText
+        android:id="@+id/newdrivernumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/newdrivernumber" />
+
+    <EditText
+        android:id="@+id/newdriveraddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/newdriveraddress" />
+
+    <EditText
+        android:id="@+id/newdriveremail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/newdriveremail" />
+
+    <EditText
+        android:id="@+id/newdrivervehiclemodel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/newdrivervehiclemodel" />
+
+    <EditText
+        android:id="@+id/newdrivervehiclenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/newdrivervehiclenumber" />
+
+    <EditText
+        android:id="@+id/newdriverdob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="@string/newdriverdob" />
+
+    <Button
+        android:id="@+id/btnnewdriveradd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/newdriveradd" />
+
+    <Button
+        android:id="@+id/btnnewdriverslist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/newdriverslist" />
+
+</LinearLayout>

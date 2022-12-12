@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pizzahut.pizzaapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pizza"
+        android:label="Pizzahut"
+        android:roundIcon="@drawable/pizza"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PizzaApp">
+        <activity android:name="com.pizzahut.pizzaapp.Ongoing_get_order_details"></activity>
+        <activity android:name="com.pizzahut.pizzaapp.OngoingList" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name="com.pizzahut.pizzaapp.assign_order" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name="com.pizzahut.pizzaapp.Driver_OngoingList" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name="com.pizzahut.pizzaapp.driver_Add" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name="com.pizzahut.pizzaapp.OrderList" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name="com.pizzahut.pizzaapp.OrderConfirmation" />
+        <activity android:name="com.pizzahut.pizzaapp.InsertPayment" />
+        <activity android:name="com.pizzahut.pizzaapp.InsertDelivery" />
+        <activity android:name="com.pizzahut.pizzaapp.update_user_profile" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name="com.pizzahut.pizzaapp.userProfile" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity android:name="com.pizzahut.pizzaapp.register" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
+        <activity android:name="com.pizzahut.pizzaapp.Login" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity android:name="com.pizzahut.pizzaapp.startup_screen" android:theme="@style/Theme.AppCompat.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pizzahut.pizzaapp.user_inside_food_item" />
+        <activity android:name="com.pizzahut.pizzaapp.user_Home_Page" />
+        <activity android:name="com.pizzahut.pizzaapp.add_product" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name="com.pizzahut.pizzaapp.MainActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:name="com.pizzahut.pizzaapp.admin_food_list"
+            android:label="Food List"
+            android:parentActivityName="com.pizzahut.pizzaapp.add_product" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

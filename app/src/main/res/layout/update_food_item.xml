@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/update_image"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/pizza"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+
+
+
+        <EditText
+            android:id="@+id/update_food_name"
+            android:hint="@string/food_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroun_input"
+            android:padding="10dp"
+            android:inputType="text"/>
+
+
+
+        <EditText
+            android:id="@+id/update_food_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/backgroun_input"
+            android:padding="10dp"
+            android:hint="@string/food_price"
+            android:inputType="number"/>
+
+
+
+
+
+        <EditText
+            android:id="@+id/update_food_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:background="@drawable/backgroun_input"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/food_type"/>
+
+
+
+
+        <EditText
+            android:id="@+id/update_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:counterEnabled="true"
+            app:counterMaxLength="100"
+            android:background="@drawable/backgroun_input"
+            android:padding="10dp"
+            android:hint="@string/food_description"
+            android:inputType="text"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/update_btn"
+        android:backgroundTint="@color/dark_yellow"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update"/>
+
+</LinearLayout>

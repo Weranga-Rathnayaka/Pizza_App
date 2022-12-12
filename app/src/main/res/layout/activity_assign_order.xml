@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".assign_order">
+
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/toolbar_admin"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtoderid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/backgroun_input"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textPersonName"
+            android:hint="@string/edtoderid" />
+
+        <EditText
+            android:id="@+id/edtname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/backgroun_input"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textPersonName"
+            android:hint="@string/edtname" />
+
+        <EditText
+            android:id="@+id/edtnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/backgroun_input"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textPersonName"
+            android:hint="@string/edtnumber" />
+
+        <EditText
+            android:id="@+id/edtaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/backgroun_input"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textPersonName"
+            android:hint="@string/edtaddress" />
+
+        <EditText
+            android:id="@+id/edtprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/backgroun_input"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textPersonName"
+            android:hint="@string/edtprice" />
+
+        <EditText
+            android:id="@+id/edtdriverid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/backgroun_input"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textPersonName"
+            android:hint="@string/edtdriverid" />
+
+        <EditText
+            android:id="@+id/edtdrivername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/backgroun_input"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textPersonName"
+            android:hint="@string/edtdrivername" />
+
+        <EditText
+            android:id="@+id/edtcomplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/backgroun_input"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textPersonName"
+            android:hint="@string/edtcomplete" />
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#272D2F"
+        android:backgroundTint="@color/dark_yellow"
+        android:text="@string/btnadd" />
+
+
+
+
+</LinearLayout>

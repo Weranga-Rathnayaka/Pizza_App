@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_yellow"
+    tools:context=".startup_screen">
+
+    <ImageView
+        android:id="@+id/startup_image"
+        android:layout_width="392dp"
+        android:layout_height="308dp"
+        android:src="@drawable/pizza_lording"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.189" />
+
+    <TextView
+        android:id="@+id/startup_text1"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:fontFamily="cursive"
+        android:text="For Everyone"
+        android:textAlignment="center"
+        android:textColor="#272D2F"
+        android:textSize="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startup_image"
+        app:layout_constraintVertical_bias="0.301" />
+
+    <TextView
+        android:id="@+id/startup_text2"
+        android:layout_width="416dp"
+        android:layout_height="41dp"
+        android:fontFamily="monospace"
+        android:text="Nation Wide Pizza Ordering App"
+        android:textAlignment="center"
+        android:textColor="#272D2F"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.791" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

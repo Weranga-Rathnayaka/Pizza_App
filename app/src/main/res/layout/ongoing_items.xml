@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/backgroun_input"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/samplenewdriverid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DeliveryID"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/samplenewdrivername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Customer Name"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/samplenewdrivernumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Customer Phone Number"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/samplenewdriveraddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Customer Address" />
+
+                <TextView
+                    android:id="@+id/samplenewdriveremail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Price" />
+
+                <TextView
+                    android:id="@+id/samplenewdrivervehiclemodel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="DriverID"
+                    />
+
+                <TextView
+                    android:id="@+id/samplenewdrivervehiclenumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Driver Name" />
+                <TextView
+                    android:id="@+id/samplenewdrivervehicl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Complete?" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="25dp">
+
+                <TextView
+                    android:id="@+id/txtedtoderid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New DriverID"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/txtedtname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Driver Name"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtedtnumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Driver Phone Number"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txtedtaddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="New Driver Address" />
+
+                <TextView
+                    android:id="@+id/txtedtprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="New Driver Email" />
+
+                <TextView
+                    android:id="@+id/txtedtdriverid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Vehicle Model"
+                    />
+
+                <TextView
+                    android:id="@+id/txtedtdrivername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Vehicle Number" />
+
+                <TextView
+                    android:id="@+id/txtedtcomplete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Complete"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

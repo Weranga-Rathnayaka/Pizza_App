@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".update_user_profile">
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="731dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:paddingLeft="17dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/back_btn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/back_btn" />
+
+            <TextView
+                android:layout_width="339dp"
+                android:layout_height="68dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text=" Update Your Profile"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="307dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="80dp"
+                android:src="@drawable/user" />
+
+
+            <TextView
+                android:id="@+id/update_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/backgroun_input"
+                android:hint="@string/username"
+                android:inputType="text"
+                android:padding="10dp" />
+
+
+            <EditText
+                android:id="@+id/update_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/backgroun_input"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:padding="10dp" />
+
+
+            <EditText
+                android:id="@+id/update_contactNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/backgroun_input"
+                android:hint="@string/contact_number"
+                android:inputType="numberDecimal"
+                android:padding="10dp" />
+
+
+            <EditText
+                android:id="@+id/update_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/backgroun_input"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                app:counterEnabled="true"
+                app:counterMaxLength="100" />
+
+            <EditText
+                android:id="@+id/update_confirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/backgroun_input"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                app:counterEnabled="true"
+                app:counterMaxLength="100" />
+
+            <Button
+                android:id="@+id/update_profile_btn"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/dark_yellow"
+                android:text="Update Details"
+                android:textColor="#272D2F" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

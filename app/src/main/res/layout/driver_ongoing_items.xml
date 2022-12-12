@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/backgroun_input"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/samplenewdriverid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New DriverID"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/samplenewdrivername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Driver Name"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/samplenewdrivernumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Driver Phone Number"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/samplenewdriveraddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Driver Address"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/samplenewdriveremail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Driver Email"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/samplenewdrivervehiclemodel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vehicle Model"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/samplenewdrivervehiclenumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vehicle Number"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/samplenewdriverdob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DOB"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtnewdriverid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New DriverID"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtnewdrivername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Driver Name"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtnewdrivernumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Driver Phone Number"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtnewdriveraddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Driver Address"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtnewdriveremail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Driver Email"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtnewdrivervehiclemodel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vehicle Model"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtnewdrivervehiclenumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vehicle Number"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtnewdriverdob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Complete"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="@string/editDriverDetails"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/newdriverid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/newdriverid"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/newdrivername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/newdrivername"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/newdrivernumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/newdrivernumber"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/newdriveraddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:hint="@string/newdriveraddress"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/newdriveremail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:hint="@string/newdriveremail"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/newdrivervehiclemodel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/newdrivervehiclemodel"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/newdrivervehiclenumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/newdrivervehiclenumber"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/newdriverdob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/newdriverdob"
+                    android:inputType="date" />
+
+                <Button
+                    android:id="@+id/btnnewdriverupdated"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/dark_yellow"
+                    android:text="@string/btnnewdriverupdated"
+                    android:textColor="#272D2F" />
+
+
+
+
+</LinearLayout>

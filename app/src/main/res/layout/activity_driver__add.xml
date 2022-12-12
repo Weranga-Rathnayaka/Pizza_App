@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".driver_Add">
+
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/toolbar_admin"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/newdriverid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/backgroun_input"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:inputType="number"
+            android:hint="@string/newdriverid" />
+
+        <EditText
+            android:id="@+id/newdrivername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/backgroun_input"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textPersonName"
+            android:hint="@string/newdrivername" />
+
+        <EditText
+            android:id="@+id/newdrivernumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/backgroun_input"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:inputType="number"
+            android:hint="@string/newdrivernumber" />
+
+        <EditText
+            android:id="@+id/newdriveraddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/backgroun_input"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textPersonName"
+            android:hint="@string/newdriveraddress" />
+
+        <EditText
+            android:id="@+id/newdriveremail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/backgroun_input"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/newdriveremail" />
+
+        <EditText
+            android:id="@+id/newdrivervehiclemodel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/backgroun_input"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textPersonName"
+            android:hint="@string/newdrivervehiclemodel" />
+
+        <EditText
+            android:id="@+id/newdrivervehiclenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/backgroun_input"
+            android:padding="10dp"
+            android:inputType="textPersonName"
+            android:layout_marginTop="15dp"
+            android:hint="@string/newdrivervehiclenumber" />
+
+        <EditText
+            android:id="@+id/newdriverdob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/backgroun_input"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:inputType="date"
+            android:hint="@string/newdriverdob"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        >
+
+        <Button
+            android:id="@+id/btnnewdriveradd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#272D2F"
+            android:backgroundTint="@color/dark_yellow"
+            android:text="@string/newdriveradd" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

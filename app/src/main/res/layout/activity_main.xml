@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/toolbar_admin"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Admin Panel"
+            android:textSize="40dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/dark_yellow"
+                android:textColor="#272D2F"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/add_product" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/dark_yellow"
+                android:textColor="#272D2F"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/view_food_cart" />
+
+            <Button
+                android:id="@+id/check_order_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/dark_yellow"
+                android:textColor="#272D2F"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Check Order Delails"/>
+
+            <Button
+                android:id="@+id/add_driver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/dark_yellow"
+                android:textColor="#272D2F"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Add Driver" />
+
+            <Button
+                android:id="@+id/btnnewdriverslist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/dark_yellow"
+                android:textColor="#272D2F"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="View Driver Details"/>
+
+            <Button
+                android:id="@+id/assign_to_delivery_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/dark_yellow"
+                android:textColor="#272D2F"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Assign Delivery" />
+
+            <Button
+                android:id="@+id/view_delivery_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/dark_yellow"
+                android:textColor="#272D2F"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="View Delivery Details" />
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/dark_yellow"
+                android:textColor="#272D2F"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Check Customer Profile" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,202 @@
+<resources>
+    <string name="app_name">Pizza App</string>
+    <string name="food_price">Price</string>
+    <string name="food_name">Name</string>
+    <string name="food_type">Type(Ex: Large, Medium, Small)</string>
+    <string name="food_description">Description</string>
+    <string name="search_food">Search for a Food</string>
+    <string name="add_product">ADD NEW PRODUCT</string>
+    <string name="display_label">Text View</string>
+    <string name="food_banner">Welcome To Food Store</string>
+    <string name="place_order">Place Your Order</string>
+    <string name="add_cart">Add Cart</string>
+    <string name="description">Description</string>
+    <string name="view_food_cart">View Food List</string>
+    <string name="update">Update</string>
+    <string name="search_food_here">Search Food Here. . . </string>
+    <string name="username">Username </string>
+    <string name="email">Email </string>
+    <string name="password">Password </string>
+    <string name="contact_number">Contact Number </string>
+
+    //order and payment
+
+<!--    <string name="title_delivery">DELIVERY DETAILS</string>-->
+<!--    <string name="title_payment">PAYMENT DETAILS</string>-->
+<!--    <string name="title_myorder">MY ORDER</string>-->
+<!--    <string name="d_btn_confirm">CONFIRM</string>-->
+<!--    <string name="d_btn_back">BACK</string>-->
+<!--    <string name="p_btn_confirm">CONFIRM</string>-->
+<!--    <string name="p_btn_back">BACK</string>-->
+<!--    <string name="p_hnt_name">Card On Name</string>-->
+<!--    <string name="p_hnt_number">Card Number</string>-->
+<!--    <string name="p_hnt_exp">Expire Date</string>-->
+<!--    <string name="p_hnt_scode">Security Code</string>-->
+<!--    <string name="d_hnt_fname">First Name</string>-->
+<!--    <string name="d_hnt_lname">Last Name</string>-->
+<!--    <string name="d_hnt_email">Email Address</string>-->
+<!--    <string name="d_hnt_contact">Contact Number</string>-->
+<!--    <string name="d_hnt_address">Address</string>-->
+<!--    <string name="o_btn_cancel">Cancel</string>-->
+<!--    <string name="o_btn_confirm">Confirm</string>-->
+<!--    <string name="o_btn_add">+</string>-->
+<!--    <string name="o_btn_remove">-</string>-->
+
+<!--    <string name="o_quantity">1</string>-->
+<!--    <string name="o_subtotal_name">Subtotal(LKR):</string>-->
+<!--    <string name="o_subtotal_price">1000.00</string>-->
+
+<!--    <string name="o_deliverycharge_name">Delivery Charges:(LKR):</string>-->
+<!--    <string name="o_deliverycharge_price">100.00</string>-->
+
+<!--    <string name="o_total_name">Total(LKR):</string>-->
+<!--    <string name="o_total_price">1100.00</string>-->
+<!--    <string name="btn_edit">Edit Details</string>-->
+<!--    <string name="btn_delete">Delete Details</string>-->
+
+<!--    <string name="show_fname">koshitha</string>-->
+<!--    <string name="show_lname">sa</string>-->
+<!--    <string name="show_email">kska@gmail.com</string>-->
+<!--    <string name="show_contact">0710000100</string>-->
+<!--    <string name="show_address">no 11,welivita rd, malabe</string>-->
+<!--    <string name="title_activity_edit">Edit</string>-->
+<!--    <string name="prompt_email">Email</string>-->
+<!--    <string name="prompt_password">Password</string>-->
+<!--    <string name="action_sign_in">Sign in or register</string>-->
+<!--    <string name="action_sign_in_short">Sign in</string>-->
+<!--    <string name="welcome">"Welcome !"</string>-->
+<!--    <string name="invalid_username">Not a valid username</string>-->
+<!--    <string name="invalid_password">Password must be >5 characters</string>-->
+<!--    <string name="login_failed">"Login failed"</string>-->
+
+<!--    <string name="confirm_edit_delete">CONFIRM</string>-->
+<!--    <string name="invalid_name">"Please Enter Valid Name "</string>-->
+<!--    <string name="invalid_email">Please Enter Valid Email</string>-->
+<!--    <string name="invalid_card_name">Please Enter Card Holder Name</string>-->
+<!--    <string name="invalid_card_number">Please Enter valid card number</string>-->
+<!--    <string name="invalid_exp">Please Enter Expire Date(MM/YYYY)</string>-->
+<!--    <string name="invalid_pin">Please Enter valid security code</string>-->
+
+<!--    <string name="err_tel">Please Enter Valid Contact Number</string>-->
+<!--    <string name="invalid_address">Please Enter Correct Address</string>-->
+<!--    <string name="unitPice">Unit Pice</string>-->
+<!--    <string name="foodType">L</string>-->
+<!--    <string name="OrderId">Order ID :</string>-->
+<!--    <string name="ProductId">Product ID :</string>-->
+<!--    <string name="Contact">Contact :</string>-->
+<!--    <string name="quantity">Qty :</string>-->
+<!--    <string name="address">Address :</string>-->
+<!--    <string name="date">Date :</string>-->
+
+    //payment and order
+
+    <string name="title_delivery">DELIVERY DETAILS</string>
+    <string name="title_payment">PAYMENT DETAILS</string>
+    <string name="title_myorder">MY ORDER</string>
+    <string name="d_btn_confirm">CONFIRM</string>
+    <string name="d_btn_back">BACK</string>
+    <string name="p_btn_confirm">CONFIRM</string>
+    <string name="p_btn_back">BACK</string>
+    <string name="p_hnt_name">Card On Name</string>
+    <string name="p_hnt_number">Card Number</string>
+    <string name="p_hnt_exp">Expire Date</string>
+    <string name="p_hnt_scode">Security Code</string>
+    <string name="d_hnt_fname">First Name</string>
+    <string name="d_hnt_lname">Last Name</string>
+    <string name="d_hnt_email">Email Address</string>
+    <string name="d_hnt_contact">Contact Number</string>
+    <string name="d_hnt_address">Address</string>
+    <string name="o_btn_cancel">Cancel</string>
+    <string name="o_btn_confirm">Confirm</string>
+    <string name="o_btn_add">+</string>
+    <string name="o_btn_remove">-</string>
+
+    <string name="o_quantity">1</string>
+    <string name="o_subtotal_name">Subtotal(LKR):</string>
+    <string name="o_subtotal_price">1000.00</string>
+
+    <string name="o_deliverycharge_name">Delivery Charges:(LKR):</string>
+    <string name="o_deliverycharge_price">100.00</string>
+
+    <string name="o_total_name">Total(LKR):</string>
+    <string name="o_total_price">1100.00</string>
+    <string name="btn_edit">Edit Details</string>
+    <string name="btn_delete">Delete Details</string>
+
+    <string name="show_fname">koshitha</string>
+    <string name="show_lname">sa</string>
+    <string name="show_email">kska@gmail.com</string>
+    <string name="show_contact">0710000100</string>
+    <string name="show_address">no 11,welivita rd, malabe</string>
+    <string name="title_activity_edit">Edit</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="confirm_edit_delete">CONFIRM</string>
+    <string name="invalid_name">"Please Enter Valid Name "</string>
+    <string name="invalid_email">Please Enter Valid Email</string>
+    <string name="invalid_card_name">Please Enter Card Holder Name</string>
+    <string name="invalid_card_number">Please Enter valid card number</string>
+    <string name="invalid_exp">Please Enter Expire Date(MM/YYYY)</string>
+    <string name="invalid_pin">Please Enter valid security code</string>
+
+    <string name="err_tel">Please Enter Valid Contact Number</string>
+    <string name="invalid_address">Please Enter Correct Address</string>
+    <string name="unitPice">Unit Pice</string>
+    <string name="foodType">L</string>
+    <string name="OrderId">Order ID :</string>
+    <string name="ProductId">Product ID :</string>
+    <string name="Contact">Contact :</string>
+    <string name="quantity">Qty :</string>
+    <string name="address">Address :</string>
+    <string name="date">Date :</string>
+
+
+    //delivery
+
+
+    <string name="add">add</string>
+    <string name="view">view</string>
+    <string name="oderid">Order ID</string>
+    <string name="customername">Customer Name</string>
+    <string name="number">Telephone number</string>
+    <string name="price">Price</string>
+    <string name="driverid">Driver ID</string>
+    <string name="drivername">Driver Name</string>
+    <string name="complete">Complete?</string>
+    <string name="addDrivertoOngoingOder">Add driver for ongoing oder</string>
+
+    <string name="newdriverid">Driver ID</string>
+    <string name="newdrivername">Driver Name</string>
+    <string name="newdrivernumber">Telephone number</string>
+    <string name="newdriveraddress">Address</string>
+    <string name="newdriverdob">Date of birth</string>
+    <string name="newdrivervehiclenumber">Vehicle number</string>
+    <string name="newdrivervehiclemodel">Vehicle model</string>
+    <string name="newdriveremail">Email</string>
+    <string name="newdriveradd">Add driver to system</string>
+    <string name="newdriverslist">View all drivers</string>
+    <string name="btnnewdriverupdated">Done Upadting</string>
+    <string name="editDriverDetails">Edit Driver Details</string>
+
+
+    <string name="btnadd">add</string>
+    <string name="btnview">view</string>
+    <string name="btnupdate">Update</string>
+    <string name="edtoderid">Order ID</string>
+    <string name="edtname">Customer Name</string>
+    <string name="edtnumber">Telephone number</string>
+    <string name="edtaddress">Address</string>
+    <string name="edtprice">Price</string>
+    <string name="edtdriverid">Driver ID</string>
+    <string name="edtdrivername">Driver Name</string>
+    <string name="edtcomplete">Complete?</string>
+    <string name="editOngoing">Add driver for ongoing oder</string>
+
+</resources>
